@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.G Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+
+        .cabecera {
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: white;
+        }
+
+        .contenido {
+            display: flex;
+            min-height: 80vh;
+        }
+
+        .izquierda, .derecha {
+            background-color: #5a5757;
+            width: 25%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .centro {
+            background-color: #1f1f1f;
+            width: 50%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .centro img {
+            width: 80%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #00bfff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0080c0;
+            text-decoration: underline;
+        }
+
+        .boton-compra {
+            background-color: limegreen;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+
+        .boton-compra:hover {
+            background-color: #32cd32;
+        }
+
+        .piepagina {
+            background-color: black;
+            color: antiquewhite;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1>Grand Theft Auto VI</h1>
+    </header>
+
+    <section class="contenido">
+        <div class="izquierda">
+            <h2>¡RESERVALO AHORA!</h2>
+            <p>Versión Estándar</p>
+            <p><strong>Plataformas:</strong></p>
+            <ul>
+                <li>PlayStation 5</li>
+                <li>Xbox Series X|S</li>
+            </ul>
+            <button class="boton-compra">Comprar</button>
+        </div>
+
+        <div class="centro">
+            <img src="fotos/GTA6.png" alt="GTA VI portada">
+            <p><strong>Descripción:</strong></p>
+            <p>Jason y Lucia siempre han sabido que las cartas estaban en su contra. Cuando un golpe que parecía fácil sale mal, quedan atrapados en una conspiración criminal que se extiende por todo el estado de Leonida.</p>
+            <br>
+            <p><strong>Desarrollador:</strong> Rockstar Games</p>
+            <p><strong>Género:</strong> Acción, Aventura, Mundo Abierto</p>
+            <p><strong>Modos de juego:</strong> Un jugador (Historia), Multijugador (GTA Online)</p>
+            <p><strong>Fecha de lanzamiento:</strong> 26/05/2026</p>
+            <p><strong>Precio:</strong> No confirmado</p>
+            <br>
+            <p><a href="Proximamente.html">← Volver</a></p>
+        </div>
+
+        <div class="derecha">
+            <h2>Valoración</h2>
+            <p>⭐⭐⭐⭐⭐ 4.9/5</p>
+            <p>Más de 1 millón de jugadores lo esperan.</p>
+            <h3 style="margin-top: 20px;">Tráiler</h3>
+            <p>Próximamente disponible</p>
+        </div>
+    </section>
+
+    <footer class="piepagina">
+        <p>&copy; 2025 bodrio.royal.arruino.mi.vida@gmail.com</p>
+    </footer>
+</body>
+</html>
